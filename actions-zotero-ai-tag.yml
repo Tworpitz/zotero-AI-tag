@@ -2,7 +2,7 @@ type: ActionsTagsBackup
 author: tworpitz
 platformVersion: 7.0.22
 pluginVersion: 2.2.4
-timestamp: '2025-11-04T07:06:52.068Z'
+timestamp: '2025-11-05T02:56:26.752Z'
 actions:
   1762227766938-4YFQFVkC:
     event: 0
@@ -405,7 +405,8 @@ actions:
 
       - institution: string (CN universities keep Chinese; top global
       universities use abbreviations like MIT/CMU/UC Berkeley/Stanford/etc.;
-      others keep original full/short name)
+      others keep original full/short name; if there are multiple, separate them
+      in multiple tags). 
 
       - method_name: array of short names; if a variant, use "XXX-like". Prefer
       common acronym first, optionally full name in parentheses.

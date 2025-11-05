@@ -330,7 +330,7 @@ async function stage2Extract(summaryText, existingTagsGuideText) {
 You extract structured research metadata for robotics papers.
 
 Fields:
-- institution: string (CN universities keep Chinese; top global universities use abbreviations like MIT/CMU/UC Berkeley/Stanford/etc.; others keep original full/short name)
+- institution: string (CN universities keep Chinese; top global universities use abbreviations like MIT/CMU/UC Berkeley/Stanford/etc.; others keep original full/short name; if there are multiple, separate them in multiple tags). 
 - method_name: array of short names; if a variant, use "XXX-like". Prefer common acronym first, optionally full name in parentheses.
 - research_content: array of main technical contents (e.g., "GAN", "teacher student framework"), short phrases (<=3 words).
 - research_type: string (e.g., "algorithm", "control", "planning", "model", "RL", "vision").
